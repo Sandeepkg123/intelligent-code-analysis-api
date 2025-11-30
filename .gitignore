@@ -3,6 +3,7 @@
 
 # Dependencies (your BackEnd/node_modules folder)
 BackEnd/node_modules/
+frontend/node_modules/
 
 # Log files
 *.log
