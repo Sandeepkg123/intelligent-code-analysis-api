@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+#root {
+ height: 100%;
+ width: 100%;
+}
+.main{
+  margin: 0.2rem;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  gap: 0.5rem;
+}
+.main .left{
+  height: 100%;
+  width: 50%;
+  position: relative; 
+  
+}
+.main .right{
+  height: 100%;
+  width: 50%;
+}
+.main .left .code{
+  margin: 0.4rem;
+  width: 100%;
+  height: 100%;
+}
+.main .left .review{
+  position: absolute;  
+  bottom: 1rem;
+  right: 0.5rem;
+  border-radius: 1rem;
+  
+}
